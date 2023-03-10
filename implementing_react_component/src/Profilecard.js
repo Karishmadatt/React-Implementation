@@ -1,5 +1,10 @@
-function Profilecard(){
-    return <div>Profile card</div>
+function Profilecard(props){
+    return (
+        <div>
+            <div>Title is {props.title}</div>
+            <div>Handle is {props.handle}</div>
+        </div>
+    )
 }
 
 export default Profilecard;
