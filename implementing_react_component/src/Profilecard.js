@@ -1,8 +1,9 @@
-function Profilecard(props){
+function Profilecard({title,handle}){//using argument destructuring directly instead of writing props
+    // const {title,handle} = props //using argument destructuring
     return (
         <div>
-            <div>Title is {props.title}</div>
-            <div>Handle is {props.handle}</div>
+            <div>Title is {title}</div>
+            <div>Handle is {handle}</div>
         </div>
     )
 }
